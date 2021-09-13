@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="IOS.iosRetail.HITSInquiriesTest"/>
+      <class name="IOS.iosRetail.TechnicalInfoTest"/>
+      <class name="IOS.iosRetail.RemindersTest"/>
+      <class name="IOS.iosRetail.EscalationTest"/>
+      <class name="IOS.iosRetail.RelatedOrderTest"/>
+      <class name="IOS.iosRetail.OSMInquiriesTest"/>
+      <class name="IOS.iosRetail.SubOrderTest"/>
+      <class name="IOS.iosRetail.VlanInfoTest"/>
+      <class name="IOS.iosRetail.QuickSearchTest"/>
+      <class name="IOS.iosRetail.StatusTest"/>
+      <class name="IOS.iosRetail.SummaryTest"/>
+      <class name="IOS.iosRetail.IOSInquiriesTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

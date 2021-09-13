@@ -5,8 +5,7 @@ import org.testng.annotations.Test;
 public class EscalationTest {
 
 	@Test
-	public void escalation() {
-		
+	public void escalation() {		
 		System.out.println("escalation TestCase");
 	}
 }

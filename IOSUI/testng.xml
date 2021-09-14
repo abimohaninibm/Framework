@@ -11,7 +11,7 @@
 			<class name="IOS.iosRetail.IOSInquiriesTest" />
 		</classes>
 	</test> <!-- Test -->
-	<test name="Regression">
+	<!-- <test name="Regression">
 		<classes>
 			<class name="IOS.iosRetail.HITSInquiriesTest" />
 			<class name="IOS.iosRetail.TechnicalInfoTest" />
@@ -20,6 +20,6 @@
 			<class name="IOS.iosRetail.RelatedOrderTest" />
 			<class name="IOS.iosRetail.OSMInquiriesTest" />
 		</classes>
-	</test>
+	</test> -->
 </suite> <!-- Suite -->
 

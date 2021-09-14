@@ -8,6 +8,7 @@
 			<class name="IOS.iosRetail.QuickSearchTest" />
 			<class name="IOS.iosRetail.StatusTest" />
 			<class name="IOS.iosRetail.SummaryTest" />
+			<class name="IOS.iosRetail.EscalationTest" />
 			<class name="IOS.iosRetail.IOSInquiriesTest" />
 		</classes>
 	</test> <!-- Test -->
@@ -16,7 +17,7 @@
 			<class name="IOS.iosRetail.HITSInquiriesTest" />
 			<class name="IOS.iosRetail.TechnicalInfoTest" />
 			<class name="IOS.iosRetail.RemindersTest" />
-			<class name="IOS.iosRetail.EscalationTest" />
+			
 			<class name="IOS.iosRetail.RelatedOrderTest" />
 			<class name="IOS.iosRetail.OSMInquiriesTest" />
 		</classes>

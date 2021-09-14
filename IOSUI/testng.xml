@@ -10,17 +10,12 @@
 			<class name="IOS.iosRetail.SummaryTest" />
 			<class name="IOS.iosRetail.EscalationTest" />
 			<class name="IOS.iosRetail.IOSInquiriesTest" />
+			<class name="IOS.iosRetail.HITSInquiriesTest" />
 		</classes>
 	</test> <!-- Test -->
-	<!-- <test name="Regression">
-		<classes>
-			<class name="IOS.iosRetail.HITSInquiriesTest" />
-			<class name="IOS.iosRetail.TechnicalInfoTest" />
-			<class name="IOS.iosRetail.RemindersTest" />
-			
-			<class name="IOS.iosRetail.RelatedOrderTest" />
-			<class name="IOS.iosRetail.OSMInquiriesTest" />
-		</classes>
-	</test> -->
+	<!-- <test name="Regression"> <classes> <class name="IOS.iosRetail.TechnicalInfoTest" 
+		/> <class name="IOS.iosRetail.RemindersTest" /> <class name="IOS.iosRetail.RelatedOrderTest" 
+		/> <class name="IOS.iosRetail.OSMInquiriesTest" /> </classes> </test> -->
 </suite> <!-- Suite -->
+
 

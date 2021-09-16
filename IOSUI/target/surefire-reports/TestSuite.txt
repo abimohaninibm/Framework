@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.732 s - in TestSuite
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.583 s <<< FAILURE! - in TestSuite
+IOS.iosRetail.EscalationTest.escalation  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at IOS.iosRetail.EscalationTest.escalation(EscalationTest.java:11)
+

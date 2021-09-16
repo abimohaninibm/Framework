@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-IOSRetail" class="navigator-link">
-              <span class="suite-name border-failed">IOSRetail</span>
+              <span class="suite-name border-passed">IOSRetail</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-IOSRetail" class="hide-methods failed suite-IOSRetail"> (hide)</a> <!-- hide-methods failed suite-IOSRetail -->
-                      <a href="#" panel-name="suite-IOSRetail" class="show-methods failed suite-IOSRetail"> (show)</a> <!-- show-methods failed suite-IOSRetail -->
-                    </span>
-                    <div class="method-list-content failed suite-IOSRetail">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-IOSRetail" title="IOS.iosRetail.EscalationTest" class="method navigator-link" hash-for-method="escalation">escalation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-IOSRetail -->
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,6 +102,11 @@
                       <a href="#" panel-name="suite-IOSRetail" class="show-methods passed suite-IOSRetail"> (show)</a> <!-- show-methods passed suite-IOSRetail -->
                     </span>
                     <div class="method-list-content passed suite-IOSRetail">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-IOSRetail" title="IOS.iosRetail.EscalationTest" class="method navigator-link" hash-for-method="escalation">escalation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-IOSRetail" title="IOS.iosRetail.HITSInquiriesTest" class="method navigator-link" hash-for-method="hitsInquiries">hitsInquiries</a> <!-- method navigator-link -->
@@ -163,41 +154,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-IOSRetail" class="panel IOSRetail">
-          <div class="suite-IOSRetail-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">IOS.iosRetail.EscalationTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="escalation">
-                  </a> <!-- escalation -->
-                  <span class="method-name">escalation</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
-	at IOS.iosRetail.EscalationTest.escalation(EscalationTest.java:11)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-IOSRetail-class-failed -->
-          <div class="suite-IOSRetail-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">IOS.iosRetail.IOSInquiriesTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="iosInquiries">
-                  </a> <!-- iosInquiries -->
-                  <span class="method-name">iosInquiries</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-IOSRetail-class-passed -->
           <div class="suite-IOSRetail-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -216,6 +172,21 @@
           <div class="suite-IOSRetail-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">IOS.iosRetail.IOSInquiriesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="iosInquiries">
+                  </a> <!-- iosInquiries -->
+                  <span class="method-name">iosInquiries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-IOSRetail-class-passed -->
+          <div class="suite-IOSRetail-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">IOS.iosRetail.HITSInquiriesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -224,6 +195,21 @@
                   <a name="hitsInquiries">
                   </a> <!-- hitsInquiries -->
                   <span class="method-name">hitsInquiries</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-IOSRetail-class-passed -->
+          <div class="suite-IOSRetail-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">IOS.iosRetail.EscalationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="escalation">
+                  </a> <!-- escalation -->
+                  <span class="method-name">escalation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -353,38 +339,38 @@ data.setCell(0, 1, 'subOrder')
 data.setCell(0, 2, 'IOS.iosRetail.SubOrderTest')
 data.setCell(0, 3, 9);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'escalation')
-data.setCell(1, 2, 'IOS.iosRetail.EscalationTest')
-data.setCell(1, 3, 6);
+data.setCell(1, 1, 'summary')
+data.setCell(1, 2, 'IOS.iosRetail.SummaryTest')
+data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'status')
-data.setCell(2, 2, 'IOS.iosRetail.StatusTest')
+data.setCell(2, 1, 'escalation')
+data.setCell(2, 2, 'IOS.iosRetail.EscalationTest')
 data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'summary')
-data.setCell(3, 2, 'IOS.iosRetail.SummaryTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 1, 'vlanInfo')
+data.setCell(3, 2, 'IOS.iosRetail.VlanInfoTest')
+data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'vlanInfo')
-data.setCell(4, 2, 'IOS.iosRetail.VlanInfoTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 1, 'status')
+data.setCell(4, 2, 'IOS.iosRetail.StatusTest')
+data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'iosInquiries')
-data.setCell(5, 2, 'IOS.iosRetail.IOSInquiriesTest')
-data.setCell(5, 3, 0);
+data.setCell(5, 1, 'orderSearch')
+data.setCell(5, 2, 'IOS.iosRetail.QuickSearchTest')
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'hitsInquiries')
-data.setCell(6, 2, 'IOS.iosRetail.HITSInquiriesTest')
+data.setCell(6, 1, 'iosInquiries')
+data.setCell(6, 2, 'IOS.iosRetail.IOSInquiriesTest')
 data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'orderSearch')
-data.setCell(7, 2, 'IOS.iosRetail.QuickSearchTest')
+data.setCell(7, 1, 'hitsInquiries')
+data.setCell(7, 2, 'IOS.iosRetail.HITSInquiriesTest')
 data.setCell(7, 3, 0);
 window.suiteTableData['IOSRetail']= { tableData: data, tableDiv: 'times-div-IOSRetail'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 ms</span>
+              <span class="suite-total-time">Total running time: 14 ms</span>
               <div id="times-div-IOSRetail">
               </div> <!-- times-div-IOSRetail -->
             </div> <!-- times-div -->
@@ -420,7 +406,7 @@ return data;
               <div class="chronological-class-name">IOS.iosRetail.VlanInfoTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">vlanInfo</span>
-                <span class="method-start">17 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -447,8 +433,6 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">IOS.iosRetail.EscalationTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">escalation</span>
                 <span class="method-start">26 ms</span>
               </div> <!-- test-method -->
@@ -457,14 +441,14 @@ return data;
               <div class="chronological-class-name">IOS.iosRetail.IOSInquiriesTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">iosInquiries</span>
-                <span class="method-start">42 ms</span>
+                <span class="method-start">27 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">IOS.iosRetail.HITSInquiriesTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">hitsInquiries</span>
-                <span class="method-start">44 ms</span>
+                <span class="method-start">29 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

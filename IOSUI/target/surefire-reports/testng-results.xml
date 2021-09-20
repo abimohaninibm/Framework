@@ -2,54 +2,54 @@
 <testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-16T22:08:18 IST" name="IOSRetail" finished-at="2021-09-16T22:08:19 IST" duration-ms="96">
+  <suite started-at="2021-09-20T20:32:35 IST" name="IOSRetail" finished-at="2021-09-20T20:32:35 IST" duration-ms="190">
     <groups>
     </groups>
-    <test started-at="2021-09-16T22:08:18 IST" name="Smoke" finished-at="2021-09-16T22:08:19 IST" duration-ms="96">
+    <test started-at="2021-09-20T20:32:35 IST" name="Smoke" finished-at="2021-09-20T20:32:35 IST" duration-ms="190">
       <class name="IOS.iosRetail.HITSInquiriesTest">
-        <test-method signature="hitsInquiries()[pri:0, instance:IOS.iosRetail.HITSInquiriesTest@524d6d96]" started-at="2021-09-16T22:08:19 IST" name="hitsInquiries" finished-at="2021-09-16T22:08:19 IST" duration-ms="0" status="PASS">
+        <test-method signature="hitsInquiries()[pri:0, instance:IOS.iosRetail.HITSInquiriesTest@524d6d96]" started-at="2021-09-20T20:32:35 IST" name="hitsInquiries" finished-at="2021-09-20T20:32:35 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hitsInquiries -->
       </class> <!-- IOS.iosRetail.HITSInquiriesTest -->
       <class name="IOS.iosRetail.SubOrderTest">
-        <test-method signature="subOrder()[pri:0, instance:IOS.iosRetail.SubOrderTest@3943a2be]" started-at="2021-09-16T22:08:19 IST" name="subOrder" finished-at="2021-09-16T22:08:19 IST" duration-ms="9" status="PASS">
+        <test-method signature="subOrder()[pri:0, instance:IOS.iosRetail.SubOrderTest@3943a2be]" started-at="2021-09-20T20:32:35 IST" name="subOrder" finished-at="2021-09-20T20:32:35 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subOrder -->
       </class> <!-- IOS.iosRetail.SubOrderTest -->
       <class name="IOS.iosRetail.EscalationTest">
-        <test-method signature="escalation()[pri:0, instance:IOS.iosRetail.EscalationTest@7e9131d5]" started-at="2021-09-16T22:08:19 IST" name="escalation" finished-at="2021-09-16T22:08:19 IST" duration-ms="1" status="PASS">
+        <test-method signature="escalation()[pri:0, instance:IOS.iosRetail.EscalationTest@7e9131d5]" started-at="2021-09-20T20:32:35 IST" name="escalation" finished-at="2021-09-20T20:32:35 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- escalation -->
       </class> <!-- IOS.iosRetail.EscalationTest -->
       <class name="IOS.iosRetail.VlanInfoTest">
-        <test-method signature="vlanInfo()[pri:0, instance:IOS.iosRetail.VlanInfoTest@6f27a732]" started-at="2021-09-16T22:08:19 IST" name="vlanInfo" finished-at="2021-09-16T22:08:19 IST" duration-ms="1" status="PASS">
+        <test-method signature="vlanInfo()[pri:0, instance:IOS.iosRetail.VlanInfoTest@6f27a732]" started-at="2021-09-20T20:32:35 IST" name="vlanInfo" finished-at="2021-09-20T20:32:35 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vlanInfo -->
       </class> <!-- IOS.iosRetail.VlanInfoTest -->
       <class name="IOS.iosRetail.QuickSearchTest">
-        <test-method signature="orderSearch()[pri:0, instance:IOS.iosRetail.QuickSearchTest@6c779568]" started-at="2021-09-16T22:08:19 IST" name="orderSearch" finished-at="2021-09-16T22:08:19 IST" duration-ms="1" status="PASS">
+        <test-method signature="orderSearch()[pri:0, instance:IOS.iosRetail.QuickSearchTest@6c779568]" started-at="2021-09-20T20:32:35 IST" name="orderSearch" finished-at="2021-09-20T20:32:35 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderSearch -->
       </class> <!-- IOS.iosRetail.QuickSearchTest -->
       <class name="IOS.iosRetail.StatusTest">
-        <test-method signature="status()[pri:0, instance:IOS.iosRetail.StatusTest@f381794]" started-at="2021-09-16T22:08:19 IST" name="status" finished-at="2021-09-16T22:08:19 IST" duration-ms="1" status="PASS">
+        <test-method signature="status()[pri:0, instance:IOS.iosRetail.StatusTest@f381794]" started-at="2021-09-20T20:32:35 IST" name="status" finished-at="2021-09-20T20:32:35 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- status -->
       </class> <!-- IOS.iosRetail.StatusTest -->
       <class name="IOS.iosRetail.SummaryTest">
-        <test-method signature="summary()[pri:0, instance:IOS.iosRetail.SummaryTest@2cdd0d4b]" started-at="2021-09-16T22:08:19 IST" name="summary" finished-at="2021-09-16T22:08:19 IST" duration-ms="1" status="PASS">
+        <test-method signature="summary()[pri:0, instance:IOS.iosRetail.SummaryTest@2cdd0d4b]" started-at="2021-09-20T20:32:35 IST" name="summary" finished-at="2021-09-20T20:32:35 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- summary -->
       </class> <!-- IOS.iosRetail.SummaryTest -->
       <class name="IOS.iosRetail.IOSInquiriesTest">
-        <test-method signature="iosInquiries()[pri:0, instance:IOS.iosRetail.IOSInquiriesTest@2e1d27ba]" started-at="2021-09-16T22:08:19 IST" name="iosInquiries" finished-at="2021-09-16T22:08:19 IST" duration-ms="0" status="PASS">
+        <test-method signature="iosInquiries()[pri:0, instance:IOS.iosRetail.IOSInquiriesTest@2e1d27ba]" started-at="2021-09-20T20:32:35 IST" name="iosInquiries" finished-at="2021-09-20T20:32:35 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iosInquiries -->

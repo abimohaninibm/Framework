@@ -11,6 +11,7 @@
 			<class name="IOS.iosRetail.EscalationTest" />
 			<class name="IOS.iosRetail.IOSInquiriesTest" />
 			<class name="IOS.iosRetail.HITSInquiriesTest" />
+			<class name="IOS.iosRetail.WayfairDemo" />
 		</classes>
 	</test> <!-- Test -->
 	<!-- <test name="Regression"> <classes> <class name="IOS.iosRetail.TechnicalInfoTest" 
